@@ -2,11 +2,10 @@
 
 ## Overview
 
-An end-to-end layered data pipeline that supports churn model training and incremental batch scoring using MySQL and Python, built from a Data Engineering perspective.
+An end-to-end layered data pipeline that supports churn model training and incremental batch scoring using MySQL, Python and Power BI visualization, built from a Data Engineering perspective.
 
 The system implements structured data modelling (raw → cleaned → feature), logical data freshness through SQL views, and separation of training and inference workflows. 
 
-The project build a complete end-to-end customer churn prediction system integrating data engineering, machine learning (XGBoost), and Power BI visualization.
 
 
 ---
