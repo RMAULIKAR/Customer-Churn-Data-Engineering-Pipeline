@@ -84,7 +84,6 @@ Customer-Churn-Data-Engineering-Pipeline/
 
 * Layered data architecture (raw → cleaned → feature)
 * SQL views for dynamic data freshness
-* Logistic Regression with class imbalance handling
 * Model persistence using `joblib`
 * Incremental, idempotent batch scoring
 * Separation of training and inference pipelines
