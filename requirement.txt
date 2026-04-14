@@ -1,0 +1,27 @@
+# Core Data Processing
+
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning
+
+scikit-learn==1.5.1
+xgboost==2.0.3
+
+# Model Saving
+
+joblib==1.4.2
+
+# Database (MySQL / general SQL)
+
+mysql-connector-python==9.0.0
+SQLAlchemy==2.0.30
+
+# Optional (useful for analysis / debugging)
+
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Jupyter (if using notebooks)
+
+notebook==7.2.1

@@ -1,0 +1,22 @@
+cd Customer-Churn-Data-Engineering-Pipeline
+
+pipeline
+python -m pipeline.reset_tables
+python -m pipeline.reset_predictions_table
+python -m pipeline.db_setup
+python -m pipeline.data_loader
+python -m pipeline.generate_new_customers
+python -m pipeline.run_pipeline
+python -m pipeline.check_counts
+
+
+ml
+python -m ml.train_model
+python -m ml.predict
+python -m pipeline.generate_new_customers
+
+
+
+
+config
+python -m config.db_config
